@@ -12,7 +12,101 @@ body ul {
   list-style: none;
 }
 body .container {
-  max-width: 1248px;
+  max-width: 1353px;
   width: 100%;
   margin: 0 auto;
+}
+body .nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 61px;
+  margin-bottom: 65px;
+}
+body .nav-content .nav__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 31px;
+}
+body .nav-content .nav__box .header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+body .nav-content .nav__box .header__nav-list .header__nav-link {
+  color: #292F36;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+}
+body .header-content {
+  height: 758px;
+  border-radius: 70px;
+  background-image: url(../images/header-img.svg);
+  margin-bottom: 224px;
+}
+body .header-content .header__box {
+  margin-left: 50px;
+  max-width: 433px;
+  padding-top: 200px;
+}
+body .header-content .header__box .header__title {
+  color: #292F36;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 125%;
+}
+body .header-content .header__box .header__text-one {
+  color: #4D5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin: 18px 0;
+}
+body .header-content .header__box .header__text-two {
+  margin-bottom: 21px;
+  color: #4D5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+body .header-content .header__box .btn__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 26px 49px 26px 48px;
+  border-radius: 18px;
+  background: #292F36;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+          box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+}
+body .header-content .header__box .btn__box .btn {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.36px;
 }

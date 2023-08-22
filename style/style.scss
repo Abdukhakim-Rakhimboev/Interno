@@ -12,8 +12,81 @@ body {
         list-style: none;
     }
     .container {
-        max-width: 1248px;
+        max-width: 1353px;
         width: 100%;
         margin: 0 auto;
+    }
+    .nav-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 61px;
+        margin-bottom: 65px;
+        .nav__box {
+            display: flex;
+            align-items: center;
+            gap: 31px;
+            .header__nav-list {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                .header__nav-link {
+                    color: #292F36;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 125%;
+                }
+            }    
+        }
+    }
+    .header-content {
+        height: 758px;
+        border-radius: 70px;
+        background-image: url(../images/header-img.svg);
+        margin-bottom: 224px;
+        .header__box {
+            margin-left: 50px;
+            max-width: 433px;
+            padding-top: 200px;
+            .header__title {
+                color: #292F36;
+                font-size: 65px;
+                font-weight: 400;
+                line-height: 125%;
+            }
+            .header__text-one {
+                color: #4D5053;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.22px;
+                margin: 18px 0;
+            }
+            .header__text-two {
+                margin-bottom: 21px;
+                color: #4D5053;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.22px;
+            }
+            .btn__box {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                width: fit-content;
+                padding: 26px 49px 26px 48px;
+                border-radius: 18px;
+                background: #292F36;
+                box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+                .btn {
+                    color: #FFF;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 125%;
+                    letter-spacing: 0.36px;
+                }
+            }
+        }
     }
 }
