@@ -340,6 +340,7 @@ body .main__five {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 200px;
 }
 body .main__five .main__five-title {
   color: #292F36;
@@ -352,6 +353,94 @@ body .main__five .main__five-text {
   max-width: 737px;
   margin: 8px 0 93px 0;
   text-align: center;
+  color: #4D5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+body .main__five .main__five-boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 104px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 56px 104px;
+}
+body .main__five .main__five-boxes .main__five-box {
+  max-width: 619px;
+  width: 100%;
+}
+body .main__five .main__five-boxes .main__five-box .five__box-img {
+  margin-bottom: 24px;
+}
+body .main__five .main__five-boxes .main__five-box .five__mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .main__five .main__five-boxes .main__five-box .five__mini .five__mini-title {
+  max-width: 217px;
+  width: 100%;
+  color: #292F36;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.5px;
+}
+body .main__five .main__five-boxes .main__five-box .five__mini .five__mini-title .mini__span {
+  margin-top: 4px;
+  color: #4D5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+body .main__six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+  height: 457px;
+  background-color: #F4F0EC;
+}
+body .main__six .main__six-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+body .main__six .main__six-boxes .line {
+  width: 1px;
+  height: 130px;
+  background: #CDA274;
+}
+body .main__six .main__six-boxes .main__six-box {
+  text-align: center;
+}
+body .main__six .main__six-boxes .main__six-box .six__box-title {
+  margin-bottom: 16px;
+  color: #CDA274;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1.7px;
+}
+body .main__six .main__six-boxes .main__six-box .six__box-text {
   color: #4D5053;
   font-size: 22px;
   font-weight: 400;
